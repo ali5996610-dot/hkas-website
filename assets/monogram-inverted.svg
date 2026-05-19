@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" role="img" aria-label="HKAS H monogram inverted">
+  <title>HKAS — H Monogram (Inverted)</title>
+  <rect width="240" height="220" fill="#2B1F18"/>
+  <g fill="#F5EFE0">
+    <path d="M 90 40 L 90 175 L 84 181 L 84 185 L 130 185 L 130 181 L 124 175 L 124 40 L 130 34 L 130 30 L 84 30 L 84 34 L 90 40 Z"/>
+    <path d="M 186 40 L 186 175 L 180 181 L 180 185 L 226 185 L 226 181 L 220 175 L 220 40 L 226 34 L 226 30 L 180 30 L 180 34 L 186 40 Z"/>
+  </g>
+  <rect x="124" y="103" width="62" height="4.5" fill="#C9A961"/>
+  <rect x="72" y="105.5" width="166" height="0.9" opacity="0.5" fill="#B5A082"/>
+</svg>

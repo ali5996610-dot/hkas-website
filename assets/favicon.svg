@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="HKAS favicon">
+  <title>HKAS favicon</title>
+  <rect width="64" height="64" fill="#2B1F18" rx="6"/>
+  <g fill="#F5EFE0">
+    <rect x="18" y="14" width="6" height="36"/>
+    <rect x="40" y="14" width="6" height="36"/>
+    <rect x="24" y="30" width="16" height="2.5" fill="#C9A961"/>
+  </g>
+</svg>

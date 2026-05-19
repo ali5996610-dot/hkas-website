@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-label="HKAS partners">
+  <title>HKAS partners — Badge</title>
+  <rect width="600" height="700" fill="#2B1F18"/>
+  <rect x="80" y="130" width="440" height="440" fill="none" stroke="#C9A961" stroke-width="2"/>
+  <rect x="92" y="142" width="416" height="416" fill="none" stroke="#C9A961" stroke-width="0.5" opacity="0.6"/>
+  <g fill="#F5EFE0" transform="translate(134,281.5) scale(0.46)">
+    <path d="M 90 40 L 90 175 L 84 181 L 84 185 L 130 185 L 130 181 L 124 175 L 124 40 L 130 34 L 130 30 L 84 30 L 84 34 L 90 40 Z"/>
+    <path d="M 186 40 L 186 175 L 180 181 L 180 185 L 226 185 L 226 181 L 220 175 L 220 40 L 226 34 L 226 30 L 180 30 L 180 34 L 186 40 Z"/>
+    <rect x="124" y="103" width="62" height="4.5" fill="#C9A961"/>
+    <rect x="72" y="105.5" width="166" height="0.9" opacity="0.45" fill="#C9A961"/>
+  </g>
+  <text x="250" y="362" font-family="'Cormorant Garamond', 'EB Garamond', Georgia, serif"
+    font-size="92" font-weight="500" letter-spacing="6" fill="#F5EFE0">KAS</text>
+  <line x1="195" y1="410" x2="285" y2="410" stroke="#B5A082" stroke-width="0.8" opacity="0.7"/>
+  <circle cx="300" cy="410" r="3" fill="#C9A961"/>
+  <line x1="315" y1="410" x2="405" y2="410" stroke="#B5A082" stroke-width="0.8" opacity="0.7"/>
+  <text x="300" y="495" text-anchor="middle"
+    font-family="'Cormorant Garamond', 'EB Garamond', Georgia, serif"
+    font-size="56" font-weight="400" font-style="italic" letter-spacing="3" fill="#C9A961">Partners</text>
+</svg>

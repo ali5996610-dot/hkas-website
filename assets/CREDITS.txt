@@ -1,0 +1,16 @@
+HKAS Partners — Hero photo credits
+
+The hero photo is sourced from Unsplash under the Unsplash License
+(https://unsplash.com/license), which grants free use for commercial purposes
+without attribution. Credit is included here as a courtesy and matter of
+record.
+
+hero-3.jpg  ·  "A view of the London skyline from a distance" by Samuel Hagger
+            ·  The Shard visible behind a treeline
+            ·  https://unsplash.com/photos/xqFwaRfW-Ac
+
+The slideshow shows a single static hero. To add a cycling slideshow, save
+additional photos as hero-N.jpg in this folder and add matching <div
+class="hero-slide" data-slide="N" ...> lines in index.html. Landscape
+orientation works best; 2400px wide or wider preserves detail at large
+screen sizes.
