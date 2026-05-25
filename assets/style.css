@@ -365,3 +365,6 @@ form.contact-form button:hover { background: var(--oxblood); }
   section.prose { padding: 24px 24px 80px; }
   .contact-inner { padding: 0 24px 72px; }
 }
+
+/* Footer: top-align badge with address (offset SVG's internal top padding) */
+.footer-brand img.badge { transform: translateY(-18.5%); }
