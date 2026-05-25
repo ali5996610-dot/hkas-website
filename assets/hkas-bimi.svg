@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 240 240">
+  <title>HKAS Partners</title>
+  <rect width="240" height="240" fill="#F5EFE0"/>
+  <g fill="#6B1F1F" transform="translate(-35,12.5)">
+    <path d="M 90 40 L 90 175 L 84 181 L 84 185 L 130 185 L 130 181 L 124 175 L 124 40 L 130 34 L 130 30 L 84 30 L 84 34 L 90 40 Z"/>
+    <path d="M 186 40 L 186 175 L 180 181 L 180 185 L 226 185 L 226 181 L 220 175 L 220 40 L 226 34 L 226 30 L 180 30 L 180 34 L 186 40 Z"/>
+    <rect x="124" y="103" width="62" height="4.5"/>
+  </g>
+</svg>
