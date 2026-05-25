@@ -54,6 +54,7 @@ a:hover { color: var(--oxblood-deep); }
   line-height: 1;
 }
 .brand img.mark { height: 40px; width: auto; display: block; }
+.brand img.brand-logo { height: 46px; width: auto; display: block; }
 .brand-name {
   font-family: var(--serif);
   font-size: 18px;
@@ -140,6 +141,13 @@ nav.primary a.portal:hover {
   height: auto;
   margin: 0 auto 28px;
   filter: drop-shadow(0 12px 40px rgba(0,0,0,0.55));
+}
+.hero img.hero-logo {
+  width: 480px;
+  max-width: 84vw;
+  height: auto;
+  margin: 0 auto 30px;
+  filter: drop-shadow(0 10px 34px rgba(0,0,0,0.6));
 }
 .hero .tagline {
   max-width: 600px;
@@ -331,6 +339,12 @@ form.contact-form button:hover { background: var(--oxblood); }
   height: auto;
   display: block;
 }
+.footer-brand img.footer-logo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .footer-info { font-family: var(--sans); color: var(--vellum); line-height: 1.9; font-size: 14px; }
 .footer-info .meta { font-size: 11px; letter-spacing: 0.08em; color: var(--stone); margin-top: 18px; line-height: 1.7; }
@@ -355,16 +369,15 @@ form.contact-form button:hover { background: var(--oxblood); }
 @media (max-width: 760px) {
   .header-inner { padding: 14px 24px; flex-wrap: wrap; gap: 14px; }
   .brand img.mark { height: 32px; }
+  .brand img.brand-logo { height: 34px; }
   .brand-name { font-size: 16px; }
   nav.primary { gap: 18px; flex-wrap: wrap; }
   .hero { padding: 64px 24px 64px; min-height: 70vh; }
   .hero img.badge { width: 240px; }
+  .hero img.hero-logo { width: 320px; }
   .hero .tagline { font-size: 18px; }
   .principles-inner { grid-template-columns: 1fr; gap: 40px; }
   .footer-inner { grid-template-columns: 1fr; }
   section.prose { padding: 24px 24px 80px; }
   .contact-inner { padding: 0 24px 72px; }
 }
-
-/* Footer: top-align badge with address (offset SVG's internal top padding) */
-.footer-brand img.badge { transform: translateY(-18.5%); }
