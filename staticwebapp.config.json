@@ -1,16 +1,27 @@
 {
   "routes": [
-    { "route": "/about", "rewrite": "/about.html" },
-    { "route": "/contact", "rewrite": "/contact.html" }
+    {
+      "route": "/about",
+      "rewrite": "/about.html"
+    },
+    {
+      "route": "/contact",
+      "rewrite": "/contact.html"
+    }
   ],
   "responseOverrides": {
-    "404": { "rewrite": "/index.html" }
+    "404": {
+      "rewrite": "/index.html"
+    }
   },
   "globalHeaders": {
     "Cache-Control": "public, max-age=600",
-    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-wRI5HhfpilmHiBmHEpfVHEcFrO7e2QQyQhLnNNwnJKo='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://fonts.googleapis.com; font-src 'self' data: https://fonts.googleapis.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+    "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
   },
   "mimeTypes": {
     ".svg": "image/svg+xml"
